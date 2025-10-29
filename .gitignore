@@ -1,7 +1,4 @@
 cat > .gitignore <<EOF
-# ========================================
-#  C++ / DSA PROJECTS .gitignore TEMPLATE
-# ========================================
 
 # --- Build artifacts ---
 *.o
@@ -28,6 +25,14 @@ cat > .gitignore <<EOF
 .idea/
 .vs/
 *.code-workspace
+
+# --- Visual Studio project files ---
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+*.opendb
 
 # --- System files ---
 .DS_Store
