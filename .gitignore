@@ -1,0 +1,54 @@
+cat > .gitignore <<EOF
+# ========================================
+#  C++ / DSA PROJECTS .gitignore TEMPLATE
+# ========================================
+
+# --- Build artifacts ---
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.lib
+*.dSYM/
+*.stackdump
+
+# --- Build directories ---
+/build/
+/bin/
+/Debug/
+/Release/
+/CMakeFiles/
+/cmake-build-*/
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / Temporary files ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# --- Testing ---
+*.gcda
+*.gcno
+*.gcov
+
+# --- Misc ---
+*.class
+*.pyc
+*.pyo
+*.db
+.env
+EOF
