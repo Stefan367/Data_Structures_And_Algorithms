@@ -57,3 +57,9 @@ Thumbs.db
 *.db
 .env
 EOF
+
+# --- Additional Visual Studio Debug/Release paths ---
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
