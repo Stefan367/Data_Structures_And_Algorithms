@@ -1,6 +1,6 @@
 /**
  * HackerRank (SDA HW 8) - Volleyball Friends
- * Difficulty: n/a (contest problem)
+ * Difficulty: Medium
  * Link: https://www.hackerrank.com/contests/sda-hw-8/challenges/volleyball-friends/problem
  *
  * Problem summary:
